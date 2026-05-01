@@ -3,14 +3,12 @@
 ## Project Brief
 MP3 tag reader is a software which will read and display MP3 (ID3) tag information from MP3 files. The software will be desktop based and not web based. This solution will read the given MP3 file, extract various tag information and display them via command line. This project can be extended to implement a tag editor, where-in users can modify mp3 tag information.
 
-## Overview
-This project focuses on reading and interpreting ID3v2.3 tags from MP3 files. ID3 tags contain metadata about the audio file such as title, artist, album, year, and more.
+## Status
+🚧 **Source code will be added soon** 🚧
 
-## Documentation
-- `ID3v2.3TagSpec.pdf` - Complete ID3v2.3 tag specification
-- `mp3_tag_reader_srs.pdf` - Software Requirements Specification
+This repository is currently being set up. The implementation will be added shortly.
 
-## Features (Planned/Implemented)
+## Planned Features
 - Read ID3v2.3 tags from MP3 files
 - Display metadata information:
   - Title
@@ -22,13 +20,6 @@ This project focuses on reading and interpreting ID3v2.3 tags from MP3 files. ID
 - Parse frame headers and data
 - Handle different text encodings
 - Command-line interface for easy usage
-
-## ID3v2.3 Tag Structure
-- Header (10 bytes)
-- Extended Header (optional)
-- Frames (variable size)
-- Padding (optional)
-- Footer (optional)
 
 ## Technologies Used
 - **Advanced C** - Structures, Arrays, File Handling, Pointers, Dynamic Memory Allocation, String Handling
@@ -44,8 +35,12 @@ This project focuses on reading and interpreting ID3v2.3 tags from MP3 files. ID
 ## GitHub Repository
 https://github.com/Khusboo-REC/project-5
 
-## Future Enhancements
-- Support for ID3v2.4 tags
-- Tag editing capabilities
-- Album art extraction
-- Support for other audio formats
+## Coming Soon
+- Source code implementation
+- Build instructions
+- Usage examples
+- Sample MP3 files for testing
+
+---
+
+**Note:** This project is part of my embedded systems portfolio. Check back soon for the complete implementation!
